@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <odoo>
     <data>
-        <menuitem name="Mis Eventos" id="ofimatica_events_parent_menu" sequence="35" web_icon="ofimatica_events,static/description/icon3.png"/>
+        <menuitem name="Mis Eventos" id="ofimatica_events_parent_menu" sequence="35" web_icon="ofimatica_events,static/description/icon5.png"/>
         <menuitem name="Eventos" id="ofimatica_event_recibos_admon_menu" action="board.open_board_my_dash_action" parent="ofimatica_events_parent_menu" sequence="10"/>
         <menuitem name="Calendario" id="ofimatica_event_calendar_menu" action="board.open_board_my_dash_action" parent="ofimatica_events_parent_menu" sequence="210"/>
         <menuitem name="Configuracion" id="ofimatica_event_foros" action="board.open_board_my_dash_action" parent="ofimatica_events_parent_menu" sequence="220"/>
