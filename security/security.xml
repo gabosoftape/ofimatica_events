@@ -10,16 +10,16 @@
     <!--Group for property manager -->
     <record id="group_events_admin" model="res.groups">
         <field name="name">Administrador Delegado</field>
-        <field name="category_id" ref="ofimatica_events.category_ofimatica_liabilities"/>
+        <field name="category_id" ref="ofimatica_events.category_ofimatica_events"/>
     </record>
     <!--Group for Property owner -->
     <record id="group_events_owner" model="res.groups">
         <field name="name">Propietario</field>
-        <field name="category_id" ref="ofimatica_events.category_ofimatica_liabilities"/>
+        <field name="category_id" ref="ofimatica_events.category_ofimatica_events"/>
     </record>
     <!--Group for property lessee-->
     <record id="group_events_lessee" model="res.groups">
         <field name="name">Arrendatario</field>
-        <field name="category_id" ref="ofimatica_events.category_ofimatica_liabilities"/>
+        <field name="category_id" ref="ofimatica_events.category_ofimatica_events"/>
     </record>
 </odoo>
